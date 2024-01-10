@@ -1,0 +1,8 @@
+[sqlfluff]
+templater = dbt
+dialect = snowflake
+exclude_rules = ST02,ST06,RF04
+
+[sqlfluff:rules:references.keywords]
+# Comma separated list of words to ignore for this rule
+ignore_words = identifier

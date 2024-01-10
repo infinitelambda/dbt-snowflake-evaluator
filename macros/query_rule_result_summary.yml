@@ -1,0 +1,10 @@
+version: 2
+
+macros:
+  - name: query_rule_result_summary
+    description: >
+      Generates a SQL statement, which returns a 1 row result 
+      containing the rule name, status and number of violations (if `status = 'FAIL'`).
+    arguments: 
+      - name: model_name
+        description: Model name of a rule (e.g. rule_warehouse_auto_suspend)

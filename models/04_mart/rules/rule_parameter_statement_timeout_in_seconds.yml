@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: rule_parameter_statement_timeout_in_seconds
+    description: "Cancel long queries after X hours. Most of the cases the default 48 hours looks too high."
+    meta:
+      title: "Cancel long queries"
+      category: "Parameter"
+      doc_section: "Account"
+    columns:
+        - name: parameter_value
+          tests:
+            - accepted_value:
+                upperlimit: 28800 #statement timeout should not too long, should smaller than 8 hours

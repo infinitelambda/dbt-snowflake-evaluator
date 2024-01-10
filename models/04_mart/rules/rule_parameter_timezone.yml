@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_parameter_timezone
+    description: "Snowflake uses America/Los Angeles as default timezone which can lead some strange issues."
+    meta:
+      title: "Change default timezone"
+      category: "Parameter"
+      doc_section: "Account"
+    tests:
+      - is_empty

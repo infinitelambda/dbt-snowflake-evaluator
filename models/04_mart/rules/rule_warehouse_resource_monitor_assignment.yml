@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_warehouse_resource_monitor_assignment
+    description: "To help control costs and avoid unexpected credit usage caused by running warehouses, Snowflake provides resource monitors. Monitor level property specifies whether the resource monitor is used to monitor the credit usage for your entire Account (i.e. all warehouses in the account) or a specific set of individual warehouses. Having a resource monitor set up for each virtual warehouse allows for regular monitoring of the credit consumption."
+    meta:
+      title: "Warehouse Resource Monitor assignment"
+      category: "Warehouse"
+      doc_section: "Cost"
+    tests:
+      - is_empty

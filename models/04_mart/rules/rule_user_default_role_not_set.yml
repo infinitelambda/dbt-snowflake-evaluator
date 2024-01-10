@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_user_default_role_not_set
+    description: "As a best practice, all users should have a default role which should correspond to their intended use of the Snowflake account."
+    meta:
+      title: "Setup default role for the users"
+      category: "User"
+      doc_section: "Account"
+    tests:
+      - is_empty

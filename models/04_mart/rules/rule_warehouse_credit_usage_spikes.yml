@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_warehouse_credit_usage_spikes
+    description: "This rule aims to identify warehouse credit usage that deviates from a pre-defined rule (e.g. daily credit consumption for the previous day exceeded the previous seven-day's credit consumption average at least four times)."
+    meta:
+      title: "Warehouse credit usage spikes"
+      category: "Warehouse"
+      doc_section: "Cost"
+    tests:
+      - is_empty

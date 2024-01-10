@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_username_loginname
+    description: "As a best practice, username and login name values should be different for all users."
+    meta:
+      title: "Different username-loginname"
+      category: "User"
+      doc_section: "Security"
+    tests:
+      - is_empty

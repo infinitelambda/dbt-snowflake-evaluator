@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: agg_results
+    description: Contains the test results of all rules defined in the project.
+    columns:
+      - name: rule_name
+        description: The name of the rule, as per the model name.
+
+      - name: rule_result
+        description: >
+          `PASS`: The snowflake account adheres to the rule; no violations.
+
+          
+          `FAIL`: The snowflake account does not adhere to the rule; 1 or more violations.
+
+      - name: cnt_rule_violations
+        description: >
+          Number of violations for the rule. 0 if rule passed.
+          (e.g. For `rule_user_disabled`, this column represents the number of users who are disabled.)

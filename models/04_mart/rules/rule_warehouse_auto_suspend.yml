@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_warehouse_auto_suspend
+    description: "Warehouses can be set to automatically suspend when there’s no activity after a specified period of time. Auto-suspend is enabled by specifying the time period (minutes, hours, etc.) of inactivity for the warehouse. Snowflake recommends setting auto-suspend according to your workload and your requirements for warehouse availability: If you enable auto-suspend, we recommend setting it to a low value (e.g. 5 or 10 minutes or less) because Snowflake utilizes per-second billing. This will help keep your warehouses from running (and consuming credits) when not in use."
+    meta:
+      title: "Warehouse auto suspend"
+      category: "Warehouse"
+      doc_section: "Cost"
+    tests:
+      - is_empty

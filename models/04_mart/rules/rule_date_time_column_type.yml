@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_date_time_column_type
+    description: "Choose an appropriate date or timestamp data type instead of varchar."
+    meta:
+      title: "Choose an appropriate date or timestamp instead of varchar"
+      category: "Object"
+      doc_section: "Performance"
+    tests:
+      - is_empty

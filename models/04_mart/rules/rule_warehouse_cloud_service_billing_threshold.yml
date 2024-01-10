@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_warehouse_cloud_service_billing_threshold
+    description: "Overall for an account (and outside of serverless features), Snowflake will charge for cloud services only if they exceed 10% of the daily virtual warehouse credit consumption. The aim of this rule is to identify the warehouses which are contributing to the cloud service compute costs."
+    meta:
+      title: "Warehouse cloud service billing threshold"
+      category: "Warehouse"
+      doc_section: "Cost"
+    tests:
+      - is_empty

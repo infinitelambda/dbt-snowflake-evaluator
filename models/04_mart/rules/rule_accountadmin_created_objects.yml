@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_accountadmin_created_objects
+    description: "Avoid Using the ACCOUNTADMIN Role to Create Objects."
+    meta:
+      title: "Avoid Using the ACCOUNTADMIN Role to Create Objects"
+      category: "Object"
+      doc_section: "Account"
+    tests:
+      - is_empty

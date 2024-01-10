@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_warehouse_min_cluster_count
+    description: "With multi-cluster warehouses, Snowflake supports allocating, either statically or dynamically, additional clusters to make a larger pool of compute resources available. For a warehouse, it is possible to specify minimum number of clusters that will run when the warehouse is resumed. This feature is available only in Snowflake Enterprise edition (or higher)."
+    meta:
+      title: "Warehouse min cluster count"
+      category: "Warehouse"
+      doc_section: "Cost"
+    tests:
+      - is_empty

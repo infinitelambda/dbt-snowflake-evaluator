@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_custom_roles_granted_to_sysadmin
+    description: "As a Snowflake best practice, functional roles in a role hierarchy should be granted to the system administrator (SYSADMIN) role. System administrators can then grant privileges on database objects to any roles in this hierarchy."
+    meta:
+      title: "Custom roles granted to sysadmin"
+      category: "Object"
+      doc_section: "Role"
+    tests:
+      - is_empty

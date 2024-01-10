@@ -1,0 +1,5 @@
+version: 2
+
+macros:
+  - name: get_all_rule_models
+    description: Returns a list of names of all rule models in the project (prefixed with `rule_`).

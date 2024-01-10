@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_accountadmin_mfa
+    description: "All users assigned the ACCOUNTADMIN role should also be required to use multi-factor authentication (MFA) for login."
+    meta:
+      title: "ACCOUNTADMIN users MFA"
+      category: "User"
+      doc_section: "Account"
+    tests:
+      - is_empty

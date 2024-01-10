@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_user_disabled
+    description: "ACCOUNT_USAGE view allows to get detailed info for users and their activity in the Snowflake account."
+    meta:
+      title: "Remove long time disabled users"
+      category: "User"
+      doc_section: "Account"
+    tests:
+      - is_empty

@@ -1,0 +1,11 @@
+target/
+logs/
+dbt_modules/
+dbt_packages/
+.vscode
+.DS_Store
+env/
+venv/
+# by Toti
+_work/
+package-lock.yml

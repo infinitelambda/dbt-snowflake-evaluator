@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_resource_monitor_account_monthly
+    description: "We suggest to setup a Resource Monitor with a monthly quota at account level."
+    meta:
+      title: "Setup monthly Resource Monitor"
+      category: "Resource Monitor"
+      doc_section: "Cost"
+    tests:
+      - is_empty

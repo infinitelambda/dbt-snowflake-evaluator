@@ -1,0 +1,36 @@
+name: 'snowflake_evaluator'
+version: '1.0.0'
+config-version: 2
+
+profile: snowflake_evaluator
+
+require-dbt-version: [">=1.6.0-rc1", "<2.0.0"]
+
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+vars:
+  snowflake_edition: 'Standard'
+  doc_site: 'https://snowflake-evaluator.iflambda.com/latest/rules'
+  source_filter_out_deleted: true
+  source_filter_on_historical: '6 MONTHS'
+
+models:
+  snowflake_evaluator:
+  
+    01_landing:
+      +materialized: table
+      +schema: SAE_LANDING
+
+    04_mart:
+      +materialized: view
+      +schema: SAE_MART

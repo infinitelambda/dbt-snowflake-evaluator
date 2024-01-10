@@ -1,0 +1,56 @@
+version: 2
+
+metrics:
+  - name: cnt_rule_violations
+    description: Count of the violations
+    type: simple
+    label: Show all the tests with the count of the violations
+    type_params:
+      measure: mes_cnt_rule_violations
+
+
+semantic_models:
+  - name: sl_da_agg_results
+    description: rule results
+    model: ref('agg_results')
+    defaults:
+      agg_time_dimension: inserted_at
+    
+    entities:
+      - name: rule
+        type: primary
+        expr: rule_id
+
+    measures:
+      - name: mes_cnt_rule_violations
+        description: count of results
+        expr: cnt_rule_violations
+        agg: sum
+    
+    dimensions:
+      - name: inserted_at
+        expr: DATE_TRUNC('DAY', __inserted_at)
+        type: time
+        type_params:
+          time_granularity: day
+      - name: category
+        type: categorical
+        expr: rule_category
+      - name: name
+        type: categorical
+        expr: rule_name
+      - name: description
+        type: categorical
+        expr: rule_description
+      - name: doclink
+        type: categorical
+        expr: rule_doclink
+      - name: status
+        type: categorical
+        expr: rule_status
+      - name: identifiers
+        type: categorical
+
+
+# example query for the central-app
+# mf query --metrics cnt_rule_violations --group-by rule,rule__category,rule__name,rule__description,rule__doclink,rule__status,rule__identifiers --csv rules_results.csv

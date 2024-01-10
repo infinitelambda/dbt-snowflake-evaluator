@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_accountadmin_email
+    description: "ACCOUNTADMIN user(s) should have email addresses, in case of Snowflake Support needs to contact with the client."
+    meta:
+      title: "ACCOUNTADMIN users should have email addresses"
+      category: "User"
+      doc_section: "Account"
+    tests:
+      - is_empty

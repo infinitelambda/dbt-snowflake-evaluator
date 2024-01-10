@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_network_restrict_access
+    description: "By default, Snowflake allows users to connect to the service from any computer or device IP address. As a system administrator you can allow and deny access from addresses with network policies."
+    meta:
+      title: "Apply network policy"
+      category: "Network Policy"
+      doc_section: "Security"
+    tests:
+      - is_empty

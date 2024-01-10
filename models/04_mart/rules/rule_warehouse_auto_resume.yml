@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_warehouse_auto_resume
+    description: "Make sure all virtual warehouses are set to auto-resume. If you are going to implement auto-suspend and set appropriate timeout limits, enabling auto-resume is a must; otherwise, users will not be able to query the system."
+    meta:
+      title: "Warehouse auto resume"
+      category: "Warehouse"
+      doc_section: "Cost"
+    tests:
+      - is_empty

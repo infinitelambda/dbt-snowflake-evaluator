@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_parameter_data_retention_time_in_days
+    description: "Extend the default 1 day regarding Time Travel interval. Often not so much cost compare to the benefit it provides."
+    meta:
+      title: "Extend TimeTravel interval"
+      category: "Parameter"
+      doc_section: "Account"
+    tests:
+      - is_empty

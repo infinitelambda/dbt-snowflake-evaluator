@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_accountadmin_at_least_2_users
+    description: "Assign ACCOUNTADMIN role at least two users."
+    meta:
+      title: "Assign ACCOUNTADMIN role at least two users"
+      category: "User"
+      doc_section: "Account"
+    tests:
+      - is_empty

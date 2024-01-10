@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_account_statement_timeout
+    description: "This rule checks whether the two parameters (STATEMENT_QUEUED_TIMEOUT_IN_SECONDS and STATEMENT_TIMEOUT_IN_SECONDS) are in the interval between 0 and 1 day."
+    meta:
+      title: "Statement Timeout"
+      category: "Parameter"
+      doc_section: "Account"
+    tests:
+      - is_empty

@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_account_client_session_keep_alive
+    description: "Check the parameter CLIENT_SESSION_KEEP_ALIVE, our recommendation is to keep the default value: FALSE."
+    meta:
+      title: "Account Client Session Keep Alive"
+      category: "Parameter"
+      doc_section: "Security"
+    tests:
+      - is_empty

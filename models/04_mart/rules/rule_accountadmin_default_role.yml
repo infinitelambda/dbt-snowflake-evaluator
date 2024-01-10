@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: rule_accountadmin_default_role
+    description: "Avoid to set ACCOUNTADMIN as a default role."
+    meta:
+      title: "Avoid to set ACCOUNTADMIN as a default role"
+      category: "User"
+      doc_section: "Account"
+    tests:
+      - is_empty
