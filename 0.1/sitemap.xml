@@ -2,137 +2,137 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/account_statement_timeout/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/accountadmin_at_least_2_users/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/accountadmin_created_objects/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/accountadmin_default_role/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/accountadmin_email/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/accountadmin_mfa/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/parameter_data_retention_time_in_days/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/parameter_statement_timeout_in_seconds/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/parameter_timezone/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/user_default_role_not_set/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/user_default_warehouse_not_set/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/user_disabled/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Account/user_inactive/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Cost/resource_monitor_account_monthly/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Cost/warehouse_auto_resume/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Cost/warehouse_auto_suspend/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Cost/warehouse_cloud_service_billing_threshold/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Cost/warehouse_credit_usage_spikes/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Cost/warehouse_min_cluster_count/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Cost/warehouse_resource_monitor_assignment/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Performance/date_time_column_type/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Role/custom_roles_granted_to_sysadmin/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Security/account_client_session_keep_alive/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Security/network_restrict_access/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Security/user_password_not_changed/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://infinitelambda.github.io/dbt-snowflake-evaluator/0.1/Rules/Security/username_loginname/</loc>
-         <lastmod>2024-01-11</lastmod>
+         <lastmod>2024-01-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
