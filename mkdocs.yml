@@ -1,7 +1,7 @@
 site_name: Snowflake Account Evaluator dbt package
 site_url: https://infinitelambda.github.io/dbt-snowflake-evaluator/
 site_author: Infinite Lambda
-site_description: Offical documentation of `diqu` CLI
+site_description: Offical documentation of `Snowflake Account Evaluator dbt package` CLI
 
 repo_name: infinitelambda/dbt-snowflake-evaluator
 repo_url: https://github.com/infinitelambda/dbt-snowflake-evaluator
@@ -97,4 +97,4 @@ extra:
           data: 0
           note: >-
             Thanks for your feedback! Help us improve this page by
-            using our <a href="https://github.com/infinitelambda/diqu/issues/new/?title=[DOCS]+{title}+-+{url}" target=_blank>feedback form</a>.
+            using our <a href="https://github.com/infinitelambda/dbt-snowflake-evaluator/issues/new/?title=[DOCS]+{title}+-+{url}" target=_blank>feedback form</a>.
